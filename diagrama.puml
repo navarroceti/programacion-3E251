@@ -1,5 +1,11 @@
 @startuml diagrama
 
+package std{
+    class Sombrero
+    class Blusa
+    class Sweater
+}
+
 class Usuario
 class Serie{
     - Foco : foquitos[10]
